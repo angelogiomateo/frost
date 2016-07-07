@@ -1,6 +1,6 @@
 # identify.py
 
-# Purpose: Identify poems on w#www.internal.org written by Robert Frost and
+# Purpose: Identify poems on www.internal.org written by Robert Frost and
 # collect their links.
 
 # Input

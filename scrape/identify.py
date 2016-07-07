@@ -30,3 +30,8 @@ for link in tree.xpath('//a/@href'):
 for i in range(len(link_list)):
     link_list[i] = 'www.internal.org' + link_list[i]
 print link_list
+
+# Write the above list into a text file.
+with open('out/link_list.txt','w') as f:
+    for s in link_list:
+        f.write(s + '\n')
